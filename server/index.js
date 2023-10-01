@@ -7,6 +7,10 @@ app.get("/", (req, res) => {
     res.send("Hello from AWS!");
 })
 
+app.get("/newRoute", (req, res) => {
+    res.send("Welcome to the new route");
+})
+
 app.listen(3000, () => {
     console.log("Server is running on port 3000");
 });
