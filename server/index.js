@@ -15,6 +15,10 @@ app.get("/anotherRoute", (req, res) => {
     res.send("Added another route!!!!");
 });
 
+app.get("/newnewRoute", (req, res) => {
+    res.send("Added new route!");
+})
+
 app.listen(3000, () => {
     console.log("Server is running on port 3000");
 });
