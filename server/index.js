@@ -11,8 +11,8 @@ app.get("/newRoute", (req, res) => {
     res.send("Welcome to the new route");
 });
 
-app.get("/anotherRoute",(req, res)=>{
-res.send("Added another route!!!!");
+app.get("/anotherRoute", (req, res) => {
+    res.send("Added another route!!!!");
 });
 
 app.listen(3000, () => {
